@@ -1,0 +1,30 @@
+---
+title: "Lab 9: Storm transposition"
+week: 10
+module: 3
+date: 2026-10-30
+due:
+  - label: "Lab 9 due"
+    date: 2026-11-06
+status: "placeholder"
+release: "public"
+---
+
+Storm transposition build. [vehicle not chosen]
+
+## Setup
+
+```{julia}
+#| solution: false
+#| output: false
+using Pkg
+lab_dir = dirname(@__FILE__)
+Pkg.activate(lab_dir)
+!isfile(joinpath(lab_dir, "Manifest.toml")) && Pkg.instantiate()
+```
+
+[TODO]
+
+## Exercises
+
+[TODO]
